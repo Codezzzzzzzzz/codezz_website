@@ -1,0 +1,46 @@
+#root {
+  max-width: 148pxpx;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.gh {
+  height: 50px;
+  width: 50px;
+}
+.gh:hover {
+  filter: drop-shadow(0 0 2rem #80eec0);
+}
+
+.name {
+  color: #80eec0;
+  text-align: center;
+}
+.name:hover {
+  filter: drop-shadow(0 0 2rem #80eec0);
+}
+
+.logo {
+  height: 6em;
+  will-change: filter;
+  margin-right: 30px;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #80eec0);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
